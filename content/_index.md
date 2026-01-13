@@ -1,4 +1,4 @@
 ---
 title: "Yao"
+description: "Welcome to my personal website"
 ---
-Hello! This is my home page.

@@ -1,4 +1,47 @@
 baseURL = "https://yaoyubin.github.io"
 languageCode = "en-us"
 title = "Yao"
-theme = "ananke"
+theme = "PaperMod"
+
+[params]
+  env = "production"
+  description = "Personal website of Yao"
+  keywords = [ "Blog", "Portfolio", "Hugo" ]
+  author = "Yao"
+  
+  # PaperMod theme settings
+  homeInfoParams.Title = "Yao"
+  homeInfoParams.Content = "Welcome to my personal website"
+  
+  # Enable features
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowAllPagesInArchive = true
+  
+  # Theme appearance
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  
+  # Social icons (optional)
+  # [params.socialIcons]
+  #   github = "https://github.com/yaoyubin"
+  
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search"
+    weight = 30
