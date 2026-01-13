@@ -3,7 +3,10 @@ languageCode = "en-us"
 title = "Yao"
 theme = "PaperMod"
 
+# 指定主要的内容section，这些section的文章会显示在首页
 [params]
+  mainSections = ["posts"]
+  
   env = "production"
   description = "Personal website of Yao"
   keywords = [ "Blog", "Portfolio", "Hugo" ]
